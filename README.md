@@ -8,6 +8,8 @@ Module::Mixins
 
 Help with inspecting mixed-in Ruby modules.
 
+![](screenshots/mixins.gif)
+
 ### Install
 
 Add `module-mixins` to your Gemfile.
