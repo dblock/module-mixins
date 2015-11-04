@@ -20,7 +20,7 @@ describe Module::Mixins::Including do
         Object.const_set "Class_#{SecureRandom.uuid.delete('-')}", @child
       end
       it 'classes_including includes children' do
-        expect(@m.classes_including).to eq [@k, @child]
+        expect(@m.classes_including.sort).to eq [@k, @child].sort
         @child.send :include, @m
       end
     end
