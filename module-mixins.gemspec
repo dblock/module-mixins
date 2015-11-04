@@ -12,6 +12,5 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.homepage = 'http://github.com/dblock/module-mixins'
   s.licenses = ['MIT']
-  s.summary = 'A little bit of help with Ruby modules.'
-  s.add_dependency 'activesupport'
+  s.summary = 'Help with inspecting mixed-in Ruby modules.'
 end
